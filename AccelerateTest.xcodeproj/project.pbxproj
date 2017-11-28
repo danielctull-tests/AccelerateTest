@@ -16,6 +16,8 @@
 		24D4D7CB1FCD944F006B47F0 /* Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7CA1FCD944F006B47F0 /* Alpha.swift */; };
 		24D4D7CD1FCD94CC006B47F0 /* Beta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7CC1FCD94CC006B47F0 /* Beta.swift */; };
 		24D4D7D11FCD952B006B47F0 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7961FCD9377006B47F0 /* A.framework */; };
+		24D4D7D41FCD9733006B47F0 /* Float16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7D31FCD9733006B47F0 /* Float16.swift */; };
+		24D4D7D61FCD9770006B47F0 /* Float16Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7D51FCD9770006B47F0 /* Float16Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		24D4D7C31FCD939E006B47F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24D4D7CA1FCD944F006B47F0 /* Alpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha.swift; sourceTree = "<group>"; };
 		24D4D7CC1FCD94CC006B47F0 /* Beta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beta.swift; sourceTree = "<group>"; };
+		24D4D7D31FCD9733006B47F0 /* Float16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float16.swift; sourceTree = "<group>"; };
+		24D4D7D51FCD9770006B47F0 /* Float16Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float16Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			children = (
 				24D4D7991FCD9377006B47F0 /* A.h */,
 				24D4D7CA1FCD944F006B47F0 /* Alpha.swift */,
+				24D4D7D31FCD9733006B47F0 /* Float16.swift */,
 				24D4D79A1FCD9377006B47F0 /* Info.plist */,
 			);
 			path = A;
@@ -141,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				24D4D7B21FCD9392006B47F0 /* ATests.swift */,
+				24D4D7D51FCD9770006B47F0 /* Float16Tests.swift */,
 				24D4D7B41FCD9392006B47F0 /* Info.plist */,
 			);
 			path = "A Tests";
@@ -343,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D4D7CB1FCD944F006B47F0 /* Alpha.swift in Sources */,
+				24D4D7D41FCD9733006B47F0 /* Float16.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24D4D7B31FCD9392006B47F0 /* ATests.swift in Sources */,
+				24D4D7D61FCD9770006B47F0 /* Float16Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
