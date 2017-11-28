@@ -18,6 +18,7 @@
 		24D4D7D11FCD952B006B47F0 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7961FCD9377006B47F0 /* A.framework */; };
 		24D4D7D41FCD9733006B47F0 /* Float16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7D31FCD9733006B47F0 /* Float16.swift */; };
 		24D4D7D61FCD9770006B47F0 /* Float16Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7D51FCD9770006B47F0 /* Float16Tests.swift */; };
+		24D4D7D81FCD9813006B47F0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7D71FCD980F006B47F0 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		24D4D7CC1FCD94CC006B47F0 /* Beta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beta.swift; sourceTree = "<group>"; };
 		24D4D7D31FCD9733006B47F0 /* Float16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float16.swift; sourceTree = "<group>"; };
 		24D4D7D51FCD9770006B47F0 /* Float16Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float16Tests.swift; sourceTree = "<group>"; };
+		24D4D7D71FCD980F006B47F0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D4D7D81FCD9813006B47F0 /* Accelerate.framework in Frameworks */,
 				24D4D7C41FCD939E006B47F0 /* B.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +167,7 @@
 		24D4D7D01FCD952B006B47F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24D4D7D71FCD980F006B47F0 /* Accelerate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
