@@ -21,6 +21,7 @@
 		24D4D7D81FCD9813006B47F0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7D71FCD980F006B47F0 /* Accelerate.framework */; };
 		24D4D7D91FCD984B006B47F0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7D71FCD980F006B47F0 /* Accelerate.framework */; };
 		24D4D7DA1FCD9873006B47F0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7D71FCD980F006B47F0 /* Accelerate.framework */; };
+		24D4D7DB1FCD9898006B47F0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7D71FCD980F006B47F0 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D4D7DB1FCD9898006B47F0 /* Accelerate.framework in Frameworks */,
 				24D4D7B51FCD9392006B47F0 /* A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
