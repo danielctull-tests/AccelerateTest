@@ -1,7 +1,9 @@
 
+import A
+
 public struct Beta {
 
 	public static var value: Int {
-		return 42
+		return Alpha.value
 	}
 }

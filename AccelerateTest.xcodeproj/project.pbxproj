@@ -15,6 +15,7 @@
 		24D4D7C41FCD939E006B47F0 /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7A41FCD9384006B47F0 /* B.framework */; };
 		24D4D7CB1FCD944F006B47F0 /* Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7CA1FCD944F006B47F0 /* Alpha.swift */; };
 		24D4D7CD1FCD94CC006B47F0 /* Beta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7CC1FCD94CC006B47F0 /* Beta.swift */; };
+		24D4D7D11FCD952B006B47F0 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7961FCD9377006B47F0 /* A.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 24D4D7A31FCD9384006B47F0;
 			remoteInfo = B;
+		};
+		24D4D7CE1FCD9528006B47F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D4D78B1FCD9363006B47F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D4D7951FCD9377006B47F0;
+			remoteInfo = A;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D4D7D11FCD952B006B47F0 /* A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +102,7 @@
 				24D4D7B11FCD9392006B47F0 /* A Tests */,
 				24D4D7C01FCD939E006B47F0 /* B Tests */,
 				24D4D7971FCD9377006B47F0 /* Products */,
+				24D4D7D01FCD952B006B47F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +153,13 @@
 				24D4D7C31FCD939E006B47F0 /* Info.plist */,
 			);
 			path = "B Tests";
+			sourceTree = "<group>";
+		};
+		24D4D7D01FCD952B006B47F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +214,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				24D4D7CF1FCD9528006B47F0 /* PBXTargetDependency */,
 			);
 			name = B;
 			productName = B;
@@ -364,6 +382,11 @@
 			isa = PBXTargetDependency;
 			target = 24D4D7A31FCD9384006B47F0 /* B */;
 			targetProxy = 24D4D7C51FCD939E006B47F0 /* PBXContainerItemProxy */;
+		};
+		24D4D7CF1FCD9528006B47F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D4D7951FCD9377006B47F0 /* A */;
+			targetProxy = 24D4D7CE1FCD9528006B47F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
