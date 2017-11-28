@@ -19,6 +19,7 @@
 		24D4D7D41FCD9733006B47F0 /* Float16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7D31FCD9733006B47F0 /* Float16.swift */; };
 		24D4D7D61FCD9770006B47F0 /* Float16Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4D7D51FCD9770006B47F0 /* Float16Tests.swift */; };
 		24D4D7D81FCD9813006B47F0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7D71FCD980F006B47F0 /* Accelerate.framework */; };
+		24D4D7D91FCD984B006B47F0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D4D7D71FCD980F006B47F0 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D4D7D91FCD984B006B47F0 /* Accelerate.framework in Frameworks */,
 				24D4D7D11FCD952B006B47F0 /* A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
